@@ -44,8 +44,10 @@ export default function Todo() {
                                 setTaskList(taskList.filter((a) => a.id !== tasks.id));
                             }}
                             >
+                            
                             <AiOutlineDelete/>
                             </button> 
+                           
                     </li>
                     ))}
                 </ul>
